@@ -8,9 +8,11 @@
     "scheme": "myhouse",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.renanoliveira.myhouse"
     },
     "android": {
+      "package": "com.renanoliveira.myhouse",
       "adaptiveIcon": {
         "backgroundColor": "#F6F4EA",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -37,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e92ddb2d-819b-409e-8d83-b2e6b48c742c"
+      }
+    },
+    "owner": "renanol"
   }
 }
